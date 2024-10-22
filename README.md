@@ -29,4 +29,4 @@ To play Jojo's Reading Game on your local machine:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Doopy87/jojo-reading-game.git
+   git clone https://github.com/Doopy87/Jojos-Learning-Game.git
