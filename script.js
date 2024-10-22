@@ -37,4 +37,27 @@ function sendMessage() {
     if (userInput === '') return;
 
     addMessageToChat(userInput, 'user');
-    document.getElementById('user
+    document.getElementById('userInput').value = '';
+    clearInterval(timer);
+
+    processResponse(userInput);
+}
+
+function processResponse(userInput) {
+    // Game logic goes here
+}
+
+function resetGame() {
+    score = 0;
+    lives = 3;
+    level = 1;
+    timeLeft = 25;
+
+    document.getElementById('score').textContent = score;
+    document.getElementById('lives').textContent = lives;
+    document.getElementById('level').textContent = level;
+    document.getElementById('stars').innerHTML = '';
+    document.getElementById('conversation').innerHTML = '';
+
+    addMessageToChat("The game has been reset.", 'ai');
+}
