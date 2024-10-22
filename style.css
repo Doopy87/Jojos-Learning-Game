@@ -1,0 +1,128 @@
+body {
+    font-family: 'Trebuchet MS', sans-serif;
+    background-color: #64a084;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #7F7FD5, #2b64cf, #91EAE4);
+}
+
+.game-box {
+    max-width: 600px;
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    background: linear-gradient(135deg, #43cea2, #185a9d);
+    color: #fff;
+}
+
+.conversation {
+    max-height: 300px;
+    overflow-y: auto;
+    margin-bottom: 20px;
+    padding-right: 10px;
+    background-color: #0f5aa4;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.conversation p {
+    background-color: #d4e372;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.user-message {
+    background-color: #d84ae2;
+    color: white;
+    text-align: right;
+}
+
+input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #00695c;
+    background-color: #e0f7fa;
+    font-size: 16px;
+    color: #006064;
+}
+
+button {
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: #d32f2f;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #c2185b;
+}
+
+.reset-button {
+    margin-top: 20px;
+    background-color: #ffcc00;
+    color: #000;
+}
+
+.reset-button:hover {
+    background-color: #ffaa00;
+}
+
+.stats {
+    margin: 20px 0;
+    font-size: 18px;
+}
+
+.stats span {
+    margin-right: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #f06292;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+h1 {
+    font-size: 32px;
+    color: #FFEB3B;
+    text-shadow: 2px 2px #ff6f00;
+}
+
+.star {
+    color: gold;
+    font-size: 24px;
+    padding: 2px;
+}
+
+.timer {
+    font-size: 24px;
+    color: #ff4081;
+    margin-bottom: 10px;
+}
+
+.badges {
+    margin: 20px;
+    font-size: 18px;
+}
+
+.music-player {
+    margin-top: 20px;
+}
+
+audio {
+    width: 100%;
+}
